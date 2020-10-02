@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    scrollbar-width: none;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+    font-family: 'Rubik', sans-serif;
+    font-size: small;
+    -webkit-touch-callout: default; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.square {
+    stroke: black;
+    fill: none;
+}
+
+.prefill {
+    fill: red;
+}
+
+.prefill, .fill {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
